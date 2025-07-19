@@ -19,13 +19,23 @@ A lightweight and flexible FlowLayout for SwiftUI, supporting dynamic wrapping o
 ## Installation
 
 ### Swift Package Manager
-Add this package to your `Package.swift`:
+
+You can add SwiftUIFlowLayout to your project using [Swift Package Manager](https://swift.org/package-manager/):
+
+**In Xcode:**
+1. Go to **File > Add Packages...**
+2. Enter the repository URL:
+   
+   ```
+   https://github.com/banghuazhao/swiftui_flow_layout
+   ```
+3. Select the version or branch you want to use (e.g., `main` or a tagged release).
+
+**Or add it directly to your `Package.swift` dependencies:**
 
 ```swift
 .package(url: "https://github.com/banghuazhao/swiftui_flow_layout.git", branch: "main")
 ```
-
-Or use Xcode: File > Add Packages... and enter the repository URL.
 
 ## Usage
 
